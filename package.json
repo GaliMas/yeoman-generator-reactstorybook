@@ -1,12 +1,21 @@
 {
   "name": "generator-reactstorybook",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.2",
+  "author": "GaliMas",
+  "description": "A yeoman generator for react with storybook",
+  "homepage": "https://github.com/GaliMas/yeoman-generator-reactstorybook",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karma-runner/karma.git"
+  },
   "files": [
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "react",
+    "storybook",
+    "styled-components"
   ],
   "dependencies": {
     "yeoman-generator": "^1.1.0"
