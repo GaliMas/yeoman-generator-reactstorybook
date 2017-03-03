@@ -6,7 +6,7 @@
   "homepage": "https://github.com/GaliMas/yeoman-generator-reactstorybook",
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma.git"
+    "url": "git://github.com/GaliMas/yeoman-generator-reactstorybook.git"
   },
   "files": [
     "app"
