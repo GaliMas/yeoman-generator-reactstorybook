@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
-const <%= nameComponentStyle %> = styled.div`
+const <%= styledNameComponent %> = styled.div`
     width: 100%;
-    height: 100%;
-    background: ${({follow}) => follow ? 'none' : '#1d1d1d'};
 `;
 
-export { <%= nameComponentStyle %> };
+export { <%= styledNameComponent %> };
