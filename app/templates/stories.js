@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import storiesOf from '../../../../.storybook/util';
 import <%= nameComponent %> from '.';
 
-storiesOf('<%= nameComponent %>', module).add('Test', () => <<%= nameComponent %> />);
+storiesOf('<%= nameComponent %>', module).add('Default', () => <<%= nameComponent %> />);

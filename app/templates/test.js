@@ -1,8 +1,9 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import <%= nameComponent %> from '.';
 
-it('dummy test', () => {
-  const wrapper = shallow(<<%= nameComponent %> />);
-  expect(true).toBe(true);
+describe('<%= nameComponent %>', () => {
+  it('Component works', () => {
+    mount(<<%= nameComponent %> />);
+  });
 });
